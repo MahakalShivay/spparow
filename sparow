@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+_get_repolink () {
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $SPPAROW_REPO == "SPPAROWTERROR_BOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    elif [[ $SPPAROWTERROR_REPO == "MAFIABOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    elif [[ $SPPAROWTERROR_REPO =~ $regex ]]
+    then
+        if [[ $SPPAROWTERROR_REPO_BRANCH ]]
+        then
+            echo "${SPPAROW_REPO}/archive/${SPPAROW_REPO_BRANCH}.zip"                       
