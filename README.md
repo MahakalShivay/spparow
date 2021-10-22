@@ -67,12 +67,27 @@ then you can run in any bot's command:
 
     Libs.myLib.hello()
     Libs.myLib.sayGoodbyeTo("Alice")
+Install git package pkg install git
+Clone this repository. git clone https://github.com/iisgaurav/AuraXBot.git
+Then Do cd Spparowterror_Bot
+Run String Generator By bash string.sh
+Then Fill The Required Details.
+API ID, API HASH, PHONE NUMBER (WITH COUNTRY CODE)
+Repl Run
 
+GenerateString
+
+- Click On Generate string
+- Then Click On Green Play Button.
+- Wait for a while then fill the details.
+- String will be saved in your Saved
 See [more](https://help.bots.business/git/library)
 
 ## Other bots example
 See other bots examples in the [github](https://github.com/bots-business?utf8=✓&tab=repositories&q=&type=public&language=javascript) or in the [Bot Store](https://bots.business/)
 
+⚡️ spparowrerror_bot ⚡️
+spparoe logo
 
 ## Other help
 [Help.bots.business](https://help.bots.business)
