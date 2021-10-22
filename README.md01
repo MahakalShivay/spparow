@@ -1,0 +1,15 @@
+# spparow@@ -1,8 +1,11 @@
+FROM sandy1709/catuserbot:alpine
+FROM H1M4N5HU0P/spparowterror_Bot:latest
+
+#clonning repo 
+# clonning repo 
+RUN git clonehttps://github.com/MahakalShivay/spparow/blob/BB_Export_1634879861/shivays /root/userbot
+#working directory 
+
+RUN pip install --upgrade pip
+
+# working directory 
+WORKDIR /root/userbot
+
+# Install requirements
