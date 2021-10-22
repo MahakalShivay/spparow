@@ -1,6 +1,6 @@
 # spparow@@ -1,8 +1,11 @@
 FROM sandy1709/catuserbot:alpine
-FROM H1M4N5HU0P/spparowterror_Bot:latest
+FROM @MAHAKAL_SHIVAY_Legend0/spparowterror_Bot:latest
 
 #clonning repo 
 # clonning repo 
