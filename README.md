@@ -68,14 +68,14 @@ then you can run in any bot's command:
     Libs.myLib.hello()
     Libs.myLib.sayGoodbyeTo("Alice")
 Install git package pkg install git
-Clone this repository. git clone https://github.com/iisgaurav/AuraXBot.git
+Clone this repository.  
 Then Do cd Spparowterror_Bot
 Run String Generator By bash string.sh
 Then Fill The Required Details.
 API ID, API HASH, PHONE NUMBER (WITH COUNTRY CODE)
 Repl Run
 
-GenerateString
+GenerateString: https://github.com/MahakalShivay/spparow.git
 
 - Click On Generate string
 - Then Click On Green Play Button.
